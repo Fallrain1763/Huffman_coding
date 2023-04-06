@@ -1,7 +1,3 @@
-## false positives reported by scan-build
-- After removing all files compiler generated and rebuild, the scan-build will give following warning:"decode.c:96:7: warning: Access to field 'left' results in a dereference of a null pointer (loaded from variable 'walker') 
-if(!(walker->left) && !(walker->right))"
-
 ## Makefile.c
 - make & make all : build the encoder and the decoder
 - make encode : build just the encoder
